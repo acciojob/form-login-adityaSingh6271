@@ -7,7 +7,7 @@ function getFormvalue() {
   var lastName = form.lname.value;
 
   // Display the concatenated values using alert
-  alert("Full Name: " + firstName + " " + lastName);
+  alert(firstName + " " + lastName);
 
   // Prevent the default form submission
   return false;
